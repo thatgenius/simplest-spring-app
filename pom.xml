@@ -9,7 +9,6 @@
 
     <properties>
         <spring.mvc>4.1.1.RELEASE</spring.mvc>
-        <spring.securiry>4.0.0.RELEASE</spring.securiry>
     </properties>
 
     <dependencies>
