@@ -1,14 +1,14 @@
 package controller;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.ImportResource;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/")
-@ImportResource("classpath:/config.xml")
+@PropertySource("classpath:/application.properties")
 public class SimplestController {
 
     @Value("${value}")
